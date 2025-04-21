@@ -37,5 +37,7 @@ The original code is written in Matlab by Abhishek Kumar, it can be found at htt
 # Known differences from Matlab
 
 RC24: in C++ acos is calculated differently from matlab, resulting in small differences (<1e-10 relative);
+
 RC31: should have 0 g's and 0 h's, but it has 1's - probably to avoid empty arrays? Also, it is just a box-constrained problem;
+
 RC44: g and h should be 91 not 105.
